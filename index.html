@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e7">
+  <meta name="description" content="A premium, mobile-first wedding invitation website demo.">
+  <title>Maison Wedding — Premium Demo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-mark">M</div>
+    <span>THE WEDDING</span>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#top" aria-label="Back to top">M<span>•</span>W</a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#story">Story</a>
+      <a href="#celebration">Celebration</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#venue">Venue</a>
+      <a class="nav-rsvp" href="#rsvp">RSVP</a>
+    </nav>
+    <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#story">Story</a>
+    <a href="#celebration">Celebration</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#venue">Venue</a>
+    <a href="#rsvp">RSVP</a>
+  </div>
+
+  <main id="top">
+    <section class="hero" aria-label="Wedding introduction">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-wash" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">A celebration of love</p>
+        <p class="hero-date">30 · AUGUST · 2026</p>
+        <h1>BRIDE <i>&amp;</i><br>GROOM</h1>
+        <p class="hero-location">Your City · Your Venue</p>
+        <a class="button button-light" href="#celebration">Explore the celebration <span>↓</span></a>
+      </div>
+
+      <div class="hero-side-note">SCROLL TO DISCOVER</div>
+      <div class="hero-line" aria-hidden="true"></div>
+    </section>
+
+    <section class="intro section-light" id="story">
+      <div class="section-number">01</div>
+      <div class="intro-copy reveal">
+        <p class="eyebrow">The invitation</p>
+        <h2>Two lives.<br><em>One beautiful</em> beginning.</h2>
+        <p class="lead">With the blessings of our families and the people we love, we invite you to join us as we begin a new chapter together.</p>
+        <div class="signature">Bride <span>×</span> Groom</div>
+      </div>
+      <div class="intro-photo reveal image-reveal">
+        <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=1200&q=85" alt="Wedding celebration">
+      </div>
+    </section>
+
+    <section class="story-band">
+      <div class="story-image" aria-hidden="true"></div>
+      <div class="story-overlay"></div>
+      <div class="story-content reveal">
+        <p class="eyebrow eyebrow-light">A day to remember</p>
+        <p class="quote">“The best thing to hold onto in life is each other.”</p>
+        <span class="quote-rule"></span>
+      </div>
+    </section>
+
+    <section class="celebration section-cream" id="celebration">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">02 · The celebration</p>
+          <h2>A weekend<br><em>of moments</em></h2>
+        </div>
+        <p class="heading-note">Three gatherings. One unforgettable celebration.</p>
+      </div>
+
+      <div class="event-grid">
+        <article class="event-card reveal">
+          <span class="event-index">01</span>
+          <p class="event-day">SATURDAY · 29 AUG</p>
+          <h3>Varapooja</h3>
+          <p>A sacred beginning filled with blessings, family and tradition.</p>
+          <div class="event-meta"><b>01:30 PM</b><span>Family Hall</span></div>
+        </article>
+
+        <article class="event-card event-card-feature reveal">
+          <span class="event-index">02</span>
+          <p class="event-day">SATURDAY · 29 AUG</p>
+          <h3>Reception</h3>
+          <p>An evening of music, laughter, photographs and celebration.</p>
+          <div class="event-meta"><b>07:30 PM</b><span>Grand Ballroom</span></div>
+        </article>
+
+        <article class="event-card reveal">
+          <span class="event-index">03</span>
+          <p class="event-day">SUNDAY · 30 AUG</p>
+          <h3>Muhurtham</h3>
+          <p>The moment we make our promises and begin forever.</p>
+          <div class="event-meta"><b>10:00 AM</b><span>Main Mandapam</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery section-dark" id="gallery">
+      <div class="gallery-top reveal">
+        <p class="eyebrow eyebrow-light">03 · The gallery</p>
+        <h2>A little<br><em>more magic.</em></h2>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-tall reveal">
+          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=85" alt="Elegant wedding ceremony">
+          <figcaption>THE BEGINNING</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-wide reveal">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1400&q=85" alt="Wedding couple">
+          <figcaption>THE MOMENT</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-small reveal">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85" alt="Wedding details">
+          <figcaption>THE DETAILS</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="families section-light">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">04 · With love</p>
+          <h2>Our <em>families</em></h2>
+        </div>
+        <p class="heading-note">Celebrated with the love and blessings of those who made us who we are.</p>
+      </div>
+
+      <div class="family-grid">
+        <article class="family-card reveal">
+          <span>THE BRIDE'S FAMILY</span>
+          <h3>Parents' Names</h3>
+          <p>Family name · City<br>Family details</p>
+        </article>
+        <article class="family-card reveal">
+          <span>THE GROOM'S FAMILY</span>
+          <h3>Parents' Names</h3>
+          <p>Family name · City<br>Family details</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="venue section-cream" id="venue">
+      <div class="venue-copy reveal">
+        <p class="eyebrow">05 · The venue</p>
+        <h2>Your wedding<br><em>destination.</em></h2>
+        <p class="lead">Your Venue Name<br>Your City, State</p>
+        <a class="text-link" href="#rsvp">View celebration details <span>↗</span></a>
+      </div>
+      <div class="venue-image reveal">
+        <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?auto=format&fit=crop&w=1400&q=85" alt="Wedding venue">
+        <div class="venue-pin">VENUE<br><b>01</b></div>
+      </div>
+    </section>
+
+    <section class="countdown section-light">
+      <p class="eyebrow reveal">Until we say “I do”</p>
+      <div class="countdown-grid reveal" id="countdown">
+        <div><strong id="days">00</strong><span>DAYS</span></div>
+        <div><strong id="hours">00</strong><span>HOURS</span></div>
+        <div><strong id="minutes">00</strong><span>MINUTES</span></div>
+        <div><strong id="seconds">00</strong><span>SECONDS</span></div>
+      </div>
+      <p class="countdown-date">30 AUGUST 2026 · 10:00 AM</p>
+    </section>
+
+    <section class="rsvp section-dark" id="rsvp">
+      <div class="rsvp-inner reveal">
+        <p class="eyebrow eyebrow-light">06 · Your presence</p>
+        <h2>Will you<br><em>join us?</em></h2>
+        <p>We would be delighted to celebrate this day with you.</p>
+        <div class="rsvp-actions">
+          <button class="button button-light" id="acceptRsvp">Yes, I'll be there</button>
+          <button class="button button-outline" id="maybeRsvp">I'll let you know</button>
+        </div>
+        <p class="rsvp-message" id="rsvpMessage" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="eyebrow">With love, always</p>
+    <div class="footer-names">BRIDE <i>&amp;</i> GROOM</div>
+    <p>30 · 08 · 2026</p>
+    <a href="#top" class="back-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
